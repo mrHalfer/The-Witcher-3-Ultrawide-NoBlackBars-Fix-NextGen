@@ -8,7 +8,6 @@ Place the tool in the same folder as witcher3.exe (/bin/x64/ or /bin/x64_dx12)<b
 Run the tool and follow instructions
 
 The patch modifies the game file. Replacement is made for all values "39 8E E3 3F", depends on the selected screen resolution:<br>
-<br>
 2560x1080 = 26 B4 17 40<br>
 3440x1440 = 8E E3 18 40<br>
 3840x1600 = 9A 99 19 40<br>
