@@ -23,7 +23,7 @@ EndIf
 For $i = 1 To UBound($ba) - 1
 	$ckBA = StringSplit($ba[$i],"")
 	If UBound($ckBA) <> 9 Then
-		myMessage('DEBUG: Bad bite value: "'& $ba[$i] & '" (' & UBound($ckBA) - 1 & ')')
+		myMessage('DEBUG: Bad byte value: "'& $ba[$i] & '" (' & UBound($ckBA) - 1 & ')')
 		Exit
 	EndIf
 Next
