@@ -68,6 +68,7 @@ WEnd
 
 Func patch($num)
 	ConsoleWrite(@CRLF & "Creating a backup file..." & @CRLF)
+	FileDelete(@ScriptDir & "\witcher3_BAK.exe")
 	FileWrite(@ScriptDir & "\witcher3_BAK.exe", Binary($bFileContent))
 	ConsoleWrite("Backup is " & @ScriptDir & "\witcher3_BAK.exe" & @CRLF & @CRLF)
 	ConsoleWrite("Patching original file, please wait..." & @CRLF)
