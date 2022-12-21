@@ -14,8 +14,8 @@
 #AutoIt3Wrapper_Res_ProductVersion=1.0.0.0
 #AutoIt3Wrapper_Change2CUI=y
 
-Dim $res = ["","2560x1080","3440x1440","3840x1600","5120x1440","5120x2160","6880x2880"]
-Dim $ba = ["","26B41740","8EE31840","9A991940","398E6340","26B41740","8EE31840"]
+Dim $res = ["", "2560x1080 (21:9)", "3440x1440 (21:9)", "3840x1200 (32:10)", "3840x1600 (21:9)", "5120x1440 (32:9)", "5120x2160 (21:9)", "6880x2880 (21:9)"]
+Dim $ba =  ["", "26B41740",         "8EE31840",         "CDCC4C40",          "9A991940",         "398E6340",         "26B41740",         "8EE31840"]
 If UBound($res) <> UBound($ba) Then
 	myMessage("DEBUG: System Arrays are NOT the same length!")
 	Exit
