@@ -16,3 +16,5 @@ Replacement is made for all values "39 8E E3 3F", depends on the selected screen
 5120x1440 (32:9) = 39 8E 63 40<br>
 5120x2160 (21:9) = 26 B4 17 40<br>
 6880x2880 (21:9) = 8E E3 18 40<br>
+
+Support custom resolution
