@@ -59,7 +59,6 @@ ConsoleWrite(@CRLF & $conText & @CRLF)
 While 1
 	Sleep(100)
 	$var = StringReplace(ConsoleRead(), $conText, "")
-	ToolTip($var)
 
 	If $CustomPatch == False Then
 		If $var == "0" & @CRLF Then
@@ -82,7 +81,6 @@ While 1
 				customPatch($Width, $Height)
 			EndIf
 		ElseIf $var <> "" Then
-			MsgBox(0,"",$var)
 			ConsoleWrite("WARNING: Numeric value required!" & @CRLF)
 		EndIf
 	EndIf
@@ -93,7 +91,6 @@ While 1
 WEnd
 
 Func patch($num)
-	ToolTip("")
 	ConsoleWrite(@CRLF & "Creating a backup file..." & @CRLF)
 	FileDelete(@ScriptDir & "\witcher3_BAK.exe")
 	FileWrite(@ScriptDir & "\witcher3_BAK.exe", Binary($bFileContent))
